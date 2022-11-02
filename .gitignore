@@ -1,0 +1,11 @@
+# packages
+node_modules
+
+# environment files
+.env
+.env.test
+.env.production
+.env.development
+
+# tests
+coverage
