@@ -4,3 +4,6 @@
 [submodule "microservice-users"]
 	path = microservice-users
 	url = https://github.com/alfedalinan/chat-poc-user-microservice.git
+[submodule "microservice-conversations"]
+	path = microservice-conversations
+	url = https://github.com/alfedalinan/chat-poc-conversation-microservice.git
