@@ -8,6 +8,13 @@ module.exports = {
             autorestart: true
         },
         {
+            name: 'microservice-conversations',
+            cwd: './microservice-conversations',
+            script: 'npm',
+            args: 'run start:dev',
+            autorestart: true
+        },
+        {
             name: 'api',
             cwd: './api',
             script: 'npm',
