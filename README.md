@@ -1,6 +1,25 @@
 # Chat POC Backend
 
-This is the backend part of my project named Chat POC.
+This is the backend part of [Chat POC](https://github.com/alfedalinan/chat-poc-client) client side application. This is split into layers, the API and the microservices.
+
+## Flow Diagram
+![](./docs/images/chatbackend-diagram.png)
+
+The API Gateway is the center of all request and response of the application. Every request will be undergoing auth process before forwarded to main microservces (users and conversations currently).
+
+## Technologies
+
+1. API Gateway
+    - Node.js
+    - GraphQL (Apollo Server)
+    - Socket.io
+
+2. User & Conversations Microservices
+    - NestJS Framework
+    - TypeScript
+    - Sequelize
+    - MySQL
+    - Express
 
 ## Setup
 
